@@ -3,6 +3,8 @@
 ## Project Overview  
 **Names:** Yadon Kasshaun & Mohammad Zain Al Syed  
 
+Live demonstration: https://www.youtube.com/watch?v=9dlH2-jN5HA
+
 Beat The Clock Binary is an FPGA-based digital two-player game that combines combinational and sequential logic to create a competitive and timed gameplay experience. Players take turns guessing randomly generated 5-bit binary numbers within a time limit. Real-time score tracking and countdown timers are implemented using XOR gates for input verification, binary adders/subtractors for timer calculations, and a clock divider for precise timing. The game state transitions manage turn changes, score updates, and timer decrements, ensuring smooth gameplay.  
 
 ## Technical Details  
