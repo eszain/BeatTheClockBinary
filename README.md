@@ -1,5 +1,7 @@
 # Beat The Clock Binary
 
+![FPGA Setup](p1.jpg)
+
 ## Project Overview  
 **Names:** Yadon Kasshaun & Mohammad Zain Al Syed  
 
@@ -12,6 +14,8 @@ The project is implemented in Verilog and features multiple modules, including a
 
 ## Gameplay Description  
 At the start, both players' countdown timers are set to 30 seconds and displayed on the FPGA's seven-segment displays. The first player's timer begins counting down, and they must input the displayed 5-bit binary number using switches. If the guess is correct, their timer pauses, and the other player's timer starts. This alternates until one player's timer reaches zero, declaring the other player the winner. The winning player's number is displayed on the final seven-segment display.  
+
+![Winner](p2.jpg)
 
 ## Key Features  
 - Real-time countdown timers and score tracking.  
